@@ -39,6 +39,8 @@
   <!-- Responsive Stylesheet File -->
   <link href="css/responsive.css" rel="stylesheet">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- =======================================================
     Theme Name: eBusiness
     Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
@@ -155,10 +157,10 @@
 
   <!-- Start About Area -->
   <div id="about" class="about-area area-padding">
-    <div class="container">
+    <div class="container  scroll_wrap">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
+          <div class="section-headline text-center scroll_on type_top">
             <h2>About</h2>
           </div>
         </div>
@@ -167,7 +169,7 @@
         <!-- single-well start-->
         <div class="col-md-6 col-sm-6 col-xs-12">
           <div class="well-left">
-            <div class="single-well">
+            <div class="single-well scroll_on type_left">
               <!-- <a href="#"> -->
               <img src="img/about/about2.png" alt="profile">
               <!-- </a> -->
@@ -177,7 +179,7 @@
         <!-- single-well end-->
         <div class="col-md-6 col-sm-6 col-xs-13">
           <div class="well-middle">
-            <div class="single-well1">
+            <div class="single-well1 scroll_on type_right d2">
               <!-- <a href="#"> -->
               <h4 class="sec-head">안녕하세요,<br>다양한 시도와 경험으로 채워진<br>디자이너 김현진입니다.</h4>
               <!-- </a> -->
@@ -222,17 +224,17 @@
 
   <!-- Start Brand Area -->
   <div id="branding" class="brand-area area-padding">
-    <div class="container">
+    <div class="container scroll_wrap">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
+          <div class="section-headline text-center  scroll_on type_top">
             <h2>Brand Design</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <!-- single-well start-->
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12  scroll_on type_left">
           <div class="well-left">
             <div class="single-well">
               <a href="javascript:return false;" class="brand_hover">
@@ -269,7 +271,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12 scroll_on type_right">
           <div class="well-left">
             <div class="single-well">
               <a href="javascript:return false;" class="brand_hover">
@@ -307,10 +309,10 @@
 
   <!-- Start Portfolio Area -->
   <div id="Artwork" class="portfolio-area area-padding fix">
-    <div class="container">
+    <div class="container scroll_wrap">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
+          <div class="section-headline text-center scroll_on type_top">
             <h2>Artwork</h2>
           </div>
         </div>
@@ -320,7 +322,7 @@
         <div class="awesome-project-1 fix">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="awesome-menu ">
-              <ul class="project-menu">
+              <ul class="project-menu scroll_on type_bottom">
                 <li>
                   <a href="#" class="active" data-filter="*">All</a>
                 </li>
@@ -337,6 +339,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1800">
+
         <div class="awesome-project-content">
           <!-- single-awesome-project start -->
           <div class="col-md-4 col-sm-4 col-xs-12 design branding">
@@ -561,18 +566,19 @@
           <!-- single-awesome-project end -->
 
         </div>
-      </div>
-      <!-- End Portfolio -page -->
+      </div> <!--AOS effect-->
     </div>
+    <!-- End Portfolio -page -->
+  </div>
   </div>
   <!-- End Portfolio Area -->
 
   <!-- Start Service area -->
   <div id="resume" class="services-area area-padding brand-area">
-    <div class="container">
+    <div class="container scroll_wrap">
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline services-head text-center">
+          <div class="section-headline services-head text-center scroll_on type_top">
             <h2>Resume</h2>
           </div>
         </div>
@@ -580,7 +586,7 @@
       <div class="row text-center">
         <div class="services-contents">
           <!-- Start Left services -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 scroll_on type_bottom">
             <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
@@ -596,7 +602,7 @@
               <!-- end services-details -->
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 scroll_on type_bottom d1">
             <div class="about-move">
               <div class="services-details">
                 <div class="single-services">
@@ -614,7 +620,7 @@
               <!-- end services-details -->
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 scroll_on type_bottom d2">
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
@@ -624,7 +630,7 @@
                   <h4>교육</h4>
                   <p>
                     <strong>2023. 06 ~ 2023. 11.<br>
-                    나래디자인학원</strong><br>
+                      나래디자인학원</strong><br>
                     UI/UX웹디자인 과정 교육수료
                     <br>(웹기획, 퍼블리셔, 영상편집)
                   </p>
@@ -633,7 +639,7 @@
               <!-- end services-details -->
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 scroll_on type_bottom">
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
@@ -643,7 +649,7 @@
                   <h4>편집디자인</h4>
                   <p>
                     <strong>2015. 03 ~ 2018. 09<br>
-                    야베스디자인광고</strong><br>
+                      야베스디자인광고</strong><br>
                     옥외광고, 브랜딩, 행사, 브로슈어,
                     <br>카탈로그, 판촉물, 명함 등 디자인 작업
                   </p>
@@ -652,7 +658,7 @@
               <!-- end services-details -->
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 scroll_on type_bottom d1">
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
@@ -662,7 +668,7 @@
                   <h4>보고서디자인</h4>
                   <p>
                     <strong>2019. 03 ~ 2021. 12<br>
-                    정림이엔씨건축사사무소</strong><br>
+                      정림이엔씨건축사사무소</strong><br>
                     보고서 및 삽도 디자인(HWP),
                     <br>제안서 디자인(PPT), 엑셀분석 등
                   </p>
@@ -671,7 +677,7 @@
               <!-- end services-details -->
             </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="col-md-4 col-sm-4 col-xs-12 scroll_on type_bottom d2">
             <div class=" about-move">
               <div class="services-details">
                 <div class="single-services">
@@ -681,7 +687,7 @@
                   <h4>홈페이지 관리</h4>
                   <p>
                     <strong>2022. 06 ~ 2023. 05<br>
-                    에스알디자인컴퍼니</strong><br>
+                      에스알디자인컴퍼니</strong><br>
                     홈페이지 및 블로그, SNS 관리,
                     <br>사내 디자인작업, 계약서류 작업 등
                   </p>
@@ -698,17 +704,17 @@
   <!-- End Service Area -->
 
   <!-- Start Skill Area -->
-  <div id="skill" class="area-padding">
+  <div id="skill" class="area-padding scroll_wrap">
     <div class="our-skill-area fix hidden-sm">
       <div class="test-overly"></div>
       <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
+          <div class="section-headline text-center scroll_on type_top">
             <h2 style="color: #5B7EB5; padding-top: 100px;">skill</h2>
           </div>
         </div>
       </div>
-      <div class="skill-bg area-padding-2">
+      <div class="skill-bg area-padding-2 scroll_on type_bottom">
         <div class="container">
           <!-- section-heading end -->
           <div class="row">
@@ -841,7 +847,7 @@
   </div>
   <!-- End Skill Area -->
 
-  
+
 
   <!-- Start Footer bottom Area -->
   <footer>
@@ -886,10 +892,15 @@
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
 
   <script src="js/main.js"></script>
+
 </body>
 
 </html>
