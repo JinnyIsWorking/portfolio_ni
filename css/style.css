@@ -265,6 +265,39 @@ div#preloader {
   margin-left: 10px;
 }
 
+
+/* scroll effects */
+.scroll_wrap {
+}
+.scroll_on {
+  opacity: 0;
+  transition: all 1s;
+}
+.scroll_on.active {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
+}
+.scroll_on.type_top {
+  transform: translate(0, -50px);
+}
+.scroll_on.type_bottom {
+  transform: translate(0, 50px);
+}
+.scroll_on.type_left {
+  transform: translate(-50px, 0);
+}
+.scroll_on.type_right {
+  transform: translate(50px, 0);
+}
+.d1{
+  transition: all 1.5s;
+}
+.d2{
+  transition: all 2s;
+}
+
+
+
 /*--------------------------------*/
 
 /*  2. Header top Area
